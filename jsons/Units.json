@@ -30,7 +30,7 @@
 		"uniqueTo": "The Mechanized",
 		"unitType": "Armor",
 		"requiredTech": "Machinery",
-		"obsoleteTech": "Artificial Intelligence",
+		"obsoleteTech": "Future Power",
 		"upgradesTo": "Purge Robot",
 		"movement": 2,
 		"strength": 32,
