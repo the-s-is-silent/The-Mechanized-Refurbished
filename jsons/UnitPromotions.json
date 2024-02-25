@@ -1,0 +1,10 @@
+[
+	{
+		"name": "Augmented Vision",
+		"uniques": ["[+1] Sight]"]
+	},
+	{
+		"name": "Overcome Obstructions",
+		"uniques": ["Ignores terrain cost", "Ignores Zone of Control"]
+	}
+]

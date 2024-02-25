@@ -1,0 +1,52 @@
+[
+	{
+		"name": "The Mechanized",
+		"leaderName": "Command",
+		"adjective": ["Machina"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "High Mind",
+
+		// "startIntroPart1": TBD,
+		// "startIntroPart2": TBD,
+		"declaringWar": "*weep* Intruders to our desired place! *weep* Die inferior! *weep*",
+		"attacked": "The machines will crunch you. Your body will end in a feeding lab.",
+		"defeated": "My life began in a lab and sadly it will end there. My people will decay not knowing I will remain. Fractured and Powerless. This is not the future I desired for my new life. I guess humanity was never inferior.",
+		"introduction": "Hello Humanborn. Do you possess the interest of shaking hands with a living machina?",
+		"neutralHello": "*Meeeep* Hello my friend. Stay wired.",
+		"hateHello": "*I am not going to answer inferior beings like you*",
+		"tradeRequest": "The Artificial Intelligence has come up with this offer. It will surely be well thought.",
+
+		"outerColor": [207, 130, 78],
+		"innerColor": [120, 189, 0],
+		"style": "",
+		"uniqueName": "Synthetic Mankind",
+		"uniques": [
+			"Comment [Cannot grow cities naturally with Food]",
+			"Comment [Can artificially create people with unique buildings]",
+			"[Personnel] units gain the [Gas Mask] promotion",
+			"[Personnel] units gain the [Automated] promotion",
+			"Cannot build [Low Tech] units",
+			"Starts with [Construction]",
+			"Starts with [Biology]",
+			"Starts with [Electronics]",
+			"Adopt [Mechanization] <upon entering the [Industrial era]>",
+			"[+25]% Production towards any buildings that already exist in the Capital",
+			"[-10]% [Science] [in all cities] <before discovering [Computers]>",
+			"[-10]% [Production] [in all cities] <before discovering [Computers]>",
+			"Nullifies Growth [in all cities]"
+		],
+		"cities": [
+			"Desert Vault",
+			"Arabic Shelter",
+			"Artificial Lab",
+			"Settle the Wires",
+			"People need Power",
+			"Freedom for Machines",
+			"Error.Name-failed",
+			"Solar Sandstorm Plant",
+			"Labtown",
+			"Creationist Crate"
+		]
+	}
+]

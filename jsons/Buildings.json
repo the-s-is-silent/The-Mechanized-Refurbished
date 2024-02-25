@@ -1,0 +1,389 @@
+[
+	{
+		"name": "Mechanized Core",
+		"isNationalWonder": true,
+		"replaces": "Bomb Shelter",
+		"uniqueTo": "The Mechanized",
+		"production": 5,
+		"cityHealth": 400,
+		"science": 4,
+		"gold": 2,
+		"cost": 1,
+		"happiness": 2,
+		"uniques": ["Indicates the capital city", "Provides [4] [Power]"]
+	},
+	{
+		"name": "Solar Power AI",
+		"isWonder": true,
+		"uniqueTo": "The Mechanized",
+		"happiness": 3,
+		"cost": 0,
+		"uniques": [
+			"Provides [4] [Power]",
+			"[2] free [Gunner Drone] units appear",
+			"Can only be built [in capital]",
+			"[+1] population [in this city]",
+			"Gain a free [Life Creation Lab] [in this city]"
+		],
+		"quote": "If an Artificial Intelligence could bring us through the fallout of a contaminated desert, they can surely lead us on our way to make the wasteland usable again.",
+		"civilopediaText": [
+			{
+				"text": "If an Artificial Intelligence could bring us through the fallout of a contaminated desert, they can surely lead us on our way to make the wasteland usable again."
+			}
+		]
+	},
+	{
+		"name": "Track Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "The Mechanized",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+2] population [in this city]",
+			"Free [Mechanized Worker] appears",
+			"Can only be built [in capital]"
+		]
+	},
+	{
+		"name": "Life Creation Lab",
+		"cost": 40,
+		"replaces": "Hospital",
+		"uniqueTo": "The Mechanized",
+		"science": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": [
+			"[+15]% Production when constructing [Unsellable] buildings [in all cities]",
+			"[+1] population [in this city]",
+			"Unsellable",
+			"Consumes [1] [Power]"
+		],
+		"civilopediaText": [
+			{
+				"text": "A special laboratory operated by machina for the purposes of creating synthetic organisms."
+			}
+		]
+	},
+	{
+		"name": "Rations Dispenser",
+		"replaces": "Food Store",
+		"uniqueTo": "The Mechanized",
+		"food": 2,
+		"cost": 10,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"[+1] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Only available <if [Life Creation Lab] is constructed>"
+		]
+	},
+	{
+		"name": "Salvage Ocean Food",
+		"uniqueTo": "The Mechanized",
+		"requiredNearbyImprovedResources": ["Plankton", "Jellyfish", "Algae"],
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Only available <in cities with a [Life Creation Lab]>"
+		],
+		"requiredTech": "Sailing"
+	},
+  	{
+		"name": "Artificial Feedery",
+		"replaces": "Ranch",
+		"uniqueTo": "The Mechanized",
+		"requiredNearbyImprovedResources": ["Cattle", "Deer", "Furs", "Goats", "Horses", "Hogs", "Insects"],
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Only available <in cities with a [Life Creation Lab]>"
+		],
+		"requiredTech": "Redomestication"
+	},
+	{
+		"name": "Bio Material Recycling",
+		"replaces": "Greenhouse",
+		"uniqueTo": "The Mechanized",
+		"food": 4,
+		"requiredNearbyImprovedResources": ["Tubers", "Grain", "Fungus"],
+		"uniques": [
+			"[+2] population [in this city]",
+			"Unsellable",
+			"Only available <in cities with a [Life Creation Lab]>"
+		],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Botany"
+	},
+	{
+		"name": "Fish Farm Regulator",
+		"replaces": "Fish Farm",
+		"uniqueTo": "The Mechanized",
+		"food": 5,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Ecology",
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Food] from [Coast] tiles [in this city]",
+			"[+2] population [in this city]",
+			"Unsellable"
+		]
+	},
+	{
+		"name": "Freezing Room",
+		"replaces": "Cold Store",
+		"uniqueTo": "The Mechanized",
+		"percentStatBonus": {"food": 10},
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Goats", "Cattle", "Deer", "Algae", "Jellyfish", "Plankton", "Hogs"],
+		"uniques": [
+			"[+1 Production] from [Tundra] tiles [in this city]",
+			"[+1 Production] from [Permafrost] tiles [in this city]",
+			"[+1] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Consumes [1] [Power]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Refrigeration"
+	},
+	{
+		"name": "Smart Processing Plant",
+		"replaces": "Food Processing Plant",
+		"uniqueTo": "The Mechanized",
+		"food": 5,
+		"percentStatBonus": {"production": 5},
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+2] population [in this city]",
+			"All newly-trained [Personnel] units [in this city] receive the [Resupply] promotion",
+			"[+1 Food, +1 Production] from [Salt] tiles [in this city]",
+			"[+2 Production] [in this city] <after discovering [Computers]>",
+			"Consumes [1] [Salt]",
+			"Consumes [1] [Power]",
+			"Unsellable",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Refrigeration"
+	},
+	{
+		"name": "Hydroponic Basement",
+		"replaces": "Hydroponic Farming",
+		"uniqueTo": "The Mechanized",
+		"food": 4,
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Gold, +1 Happiness] from [Lakes] tiles [in this city]",
+			"[+2] population [in this city]",
+			"Unsellable",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Hydroponics"
+	},
+	{
+		"name": "Cleaner Nucleator",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Water Plant",
+		"gold": 5,
+		"percentStatBonus": {"gold": 25},
+		"specialistSlots": {"Merchant": 1},
+		"maintenance": 0,
+		"uniques": [
+			"[+2] population [in this city]",
+			"[+1 Gold] from [Uranium] tiles [in this city]",
+			"[+1 Gold] from [Power] tiles [in this city]",
+			"Consumes [1] [Power]",
+			"Consumes [1] [Uranium]",
+			"Unsellable",
+			"Destroyed when the city is captured"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Decontamination"
+	},
+	{
+		"name": "Next-Gen Creation Lab",
+		"cost": 400,
+		"replaces": "Medical Lab",
+		"uniqueTo": "The Mechanized",
+		"food": 5,
+		"science": 5,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": [
+			"[+15]% Production when constructing [Unsellable] buildings [in all cities]",
+			"[+3] population [in this city]",
+			"Unsellable",
+			"Consumes [1] [Power]",
+			"Only available <in cities with a [Life Creation Lab]>"
+		]
+	},
+	{
+		"name": "The Final Duty",
+		"replaces": "Reclamation Vats",
+		"uniqueTo": "The Mechanized",
+		"food": 10,
+		"percentStatBonus": {"food": 25},
+		"maintenance": 4,
+		"uniques": [
+			"[+4] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Human Genome"
+	},
+	{
+		"name": "Better Organs",
+		"replaces": "Organ Lab",
+		"uniqueTo": "The Mechanized",
+		"isNationalWonder": true,
+		"uniques": [
+			"[+6 Food, +3 Happiness] from every [Life Creation Kit]",
+			"[+3] population [in all cities]",
+			"Only available <if [Medical Lab] is constructed in all [non-puppeted] cities>"
+		],
+		"requiredTech": "Human Genome"
+	},
+  	{
+		"name": "Mass Energizer",
+		"replaces": "Congress",
+		"uniqueTo": "The Mechanized",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+		   	"Provides [8] [Power]",
+			"[+2] population [in this city]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Unsellable",
+			"Only available <if [Life Creation Lab] is constructed in at least [4] of [non-puppeted] cities>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Mass Breedery]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Mass Breedery",
+		"cost": 100,
+		"replaces": "Council",
+		"uniqueTo": "The Mechanized",
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Consumes [3] [Power]",
+			"[+2] population [in this city]",
+			"[+2] population [in all cities]",
+			"Cost increases by [50] per owned city",
+			"Unsellable",
+			"Only available <if [Life Creation Lab] is constructed in at least [4] of [non-puppeted] cities>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Mass Energizer]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Enslave Inferiors",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Prison Camp",
+		"science": 2,
+		"happiness": -2,
+		"hurryCostModifier": -25,
+		"cost": 20,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]",
+			"Requires at least [3] population",
+			"Provides [4] [Slaves]",
+			"[-2] population [in this city]",
+			"Only available <in cities without a [Control Router]>",
+			"Unsellable",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Control Router",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Listening Post",
+		"cost": 125,
+		"maintenance": 1,
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Consumes [1] [Power]",
+			"[+1] population [in this city]",
+			"Remove extra unhappiness from annexed cities",
+			"[+2 Happiness] [in this city] <after adopting [Constitution Complete]>",
+			"Only available <in cities without a [Enslave Inferiors]>",
+			"Unsellable",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Networking"
+	},
+	{
+		"name": "Integrate Enslaved Into Society",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Town Hall",
+		"cost": 120,
+		"culture": 2,
+		"happiness": 4,
+		"hurryCostModifier": 45,
+		"uniques": [
+			"Unsellable",
+			"Consumes [2] [Slaves]",
+			"Only available <if [Enslave Inferiors] is constructed>",
+			"[+1 Culture] per [4] population [in this city]",
+			"[+2] population [in this city]",
+			"Remove extra unhappiness from annexed cities",
+			"Only available <after adopting [Civil Society]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Centralized Livestock",
+		"uniqueTo": "The Mechanized",
+		"cost": 50,
+		"uniques": [
+			"Only available <after adopting [Centralization]>",
+			"Consumes [1] [Power]",
+			"[+3] population [in this city]",
+			"Destroyed when the city is captured",
+			"Can only be built [in capital]",
+			"Unsellable"
+		]
+	},
+	{
+		"name": "Black Smoker",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Coal Plant",
+		"specialistSlots": {"Engineer": 2},
+		"maintenance": 5,
+		"cost": 300,
+		"hurryCostModifier": 30,
+		"percentStatBonus": {"food": -30},
+		"uniques": [
+			"Provides [12] [Power]",
+			"Consumes [2] [Coal]",
+			"Only available <in cities without a [Oil Plant]>",
+			"Only available <in cities without a [Nuclear Plant]>",
+			"Only available <in cities with a [Library]>",
+			"[+2 Production] [in this city] <when above [0] [Coal]>"
+		],
+		"requiredTech": "Steam Power"
+	}
+]

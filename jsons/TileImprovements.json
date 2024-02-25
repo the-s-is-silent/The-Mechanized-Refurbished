@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Hacking site",
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"science": 1,
+		"turnsToBuild": 7,
+		"uniqueTo": "The Mechanized",
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Can only be built to improve a resource",
+			"[+3 Science] <after discovering [Artificial Intelligence]>",
+			"Pillaging this improvement yields approximately [+20 Science]"
+		],
+		"shortcutKey": "K"
+	}
+]

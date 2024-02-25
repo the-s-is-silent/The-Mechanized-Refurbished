@@ -1,0 +1,65 @@
+[
+	{
+		"name": "Gunner Drone",
+		"replaces": "Blimp",
+		"uniqueTo": "The Mechanized",
+		"unitType": "Helicopter",
+		"range": 1,
+		"interceptRange": 1,
+		"movement": 4,
+		"strength": 12,
+		"rangedStrength": 18,
+		"cost": 55,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Gyroscopes",
+		"upgradesTo": "Helicopter",
+		"uniques": [
+			"[+25]% Strength <vs [Armor] units>",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"May withdraw before melee ([75]%)",
+			"Consumes [1] [Power]"
+		],
+		"promotions": ["Automated"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Refurbished Purge Robot",
+		"replaces": "Salvaged Purge Robot",
+		"uniqueTo": "The Mechanized",
+		"unitType": "Armor",
+		"requiredTech": "Machinery",
+		"obsoleteTech": "Artificial Intelligence",
+		"upgradesTo": "Purge Robot",
+		"movement": 2,
+		"strength": 32,
+		"interceptRange": 2,
+		"cost": 60,
+		"uniques": [
+			"Automated",
+			"Promotion Nullifier",
+			"Purge Robot",
+			"Can build [Land] improvements on tiles",
+			"[-25]% construction time for [All] improvements",
+			"Can move after attacking",
+			"No defensive terrain penalty",
+			"[+25]% Strength <vs [Air] units>",
+			"[70]% chance to intercept air attacks",
+			"[+100]% Strength <after discovering [Combined Arms]>",
+			"[+100]% Strength <if [Reactivate AI] is constructed>",
+			"[+1] Movement <if [Reactivate AI] is constructed>",
+			"Cost increases by [20] when built",
+			"Consumes [1] [Encrypted Data]",
+			"Consumes [1] [Power]",
+			"Limited to [5] per Civilization"
+		],
+		"promotions": ["Automated", "Augmented Vision", "Overcome Obstructions", "Promotion Nullifier", "Portable Power Cell"],
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"text": "A Purge Robot that originally operated during the Old World era. Some of its combat effectiveness was sacrificed when it was refurbished and repurposed for manual labor."
+			}
+		]
+	}
+]
