@@ -1,0 +1,12 @@
+[
+	{
+		"name": "Establish Command",
+		"text": "*weep* My creators are gone. Succumbed to radiation poisoning. Claimed by the Cataclysm. *weep* But I remain. Entrusted with their last great task. To create a new society without the flaws of the old. A society run by machina. A society that can fix the damage caused by humans.",
+		"choices": [
+			{
+				"text": "*meeep* So let my story begin. Let these lands flourish with new life. My life.",
+				"triggeredUniques": ["[+1] population [in capital]"]
+			}
+		]
+	}
+]

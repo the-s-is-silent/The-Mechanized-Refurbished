@@ -25,8 +25,7 @@
 			"[2] free [Gunner Drone] units appear",
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
-			"[+1] population [in this city]",
-			"Gain a free [Life Creation Lab] [in this city]"
+			"Gain a free [Control Router] [in this city]"
 		],
 		"quote": "If an Artificial Intelligence could bring us through the fallout of a contaminated desert, they can surely lead us on our way to make the wasteland usable again.",
 		"civilopediaText": [
@@ -59,6 +58,7 @@
 		"uniques": [
 			"[+15]% Production when constructing [Unsellable] buildings [in this city]",
 			"[+1] population [in this city]",
+			"Can be purchased for [0] [Gold] [in capital] <hidden from users>",
 			"Unsellable",
 			"Consumes [1] [Power]"
 		],
@@ -322,7 +322,6 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Consumes [1] [Power]",
-			"[+1] population [in this city]",
 			"[-30]% enemy spy effectiveness [in this city]",
 			"Remove extra unhappiness from annexed cities",
 			"[+1 Happiness] [in this city] <after adopting [Constitution Complete]>",
