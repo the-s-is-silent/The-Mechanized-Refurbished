@@ -154,7 +154,7 @@
 		"name": "Smart Processing Plant",
 		"replaces": "Food Processing Plant",
 		"uniqueTo": "The Mechanized",
-		"food": 5,
+		"food": 2,
 		"percentStatBonus": {"production": 5},
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -270,7 +270,7 @@
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Unsellable",
 			"Only available <if [Life Creation Lab] is constructed in at least [4] of [Your] cities>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Mass Breedery]>",
 			"Destroyed when the city is captured"
 		]
@@ -287,7 +287,7 @@
 			"Cost increases by [30] per owned city",
 			"Unsellable",
 			"Only available <if [Life Creation Lab] is constructed in at least [4] of [Your] cities>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Mass Energizer]>",
 			"Destroyed when the city is captured"
 		]
