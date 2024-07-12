@@ -14,6 +14,7 @@
 		"obsoleteTech": "Gyroscopes",
 		"upgradesTo": "Helicopter",
 		"uniques": [
+			"Automated",
 			"[+25]% Strength <vs [Armor] units>",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
@@ -28,7 +29,7 @@
 		"name": "Refurbished Purge Robot",
 		"replaces": "Salvaged Purge Robot",
 		"uniqueTo": "The Mechanized",
-		"unitType": "Armor",
+		"unitType": "Purge Robot",
 		"requiredTech": "Machinery",
 		"obsoleteTech": "Future Power",
 		"upgradesTo": "Purge Robot",
@@ -39,8 +40,7 @@
 		"uniques": [
 			"Automated",
 			"Promotion Nullifier",
-			"Purge Robot",
-			"Can build [Land] improvements on tiles",
+			"Can build [All] improvements on tiles",
 			"[-25]% construction time for [All] improvements",
 			"Can move after attacking",
 			"No defensive terrain penalty",

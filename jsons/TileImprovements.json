@@ -5,6 +5,7 @@
 		"science": 1,
 		"turnsToBuild": 7,
 		"uniqueTo": "The Mechanized",
+		"techRequired": "Electronics",
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",

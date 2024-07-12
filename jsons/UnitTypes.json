@@ -1,0 +1,7 @@
+[
+	{
+		"name": "Purge Robot",
+		"uniques": ["Cannot intercept [Missile] units"],
+		"movementType": "Land"
+	}
+]

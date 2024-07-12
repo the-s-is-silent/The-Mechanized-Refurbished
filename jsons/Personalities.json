@@ -1,0 +1,33 @@
+[
+	{
+		"name": "Command",
+		"food": 10,
+		"production": 7,
+		"gold": 5,
+		"science": 7,
+		"culture": 3,
+		"faith": 2,
+		"happiness": 5,
+		"military": 5,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 5,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 5,
+		"priorities": {
+			"Adaptation": 40,
+			"Expansionism": 0,
+			"Sovereignty": 20,
+			"Theocracy": 0,
+			"Rationalism": 30,
+			"Constitution": 30,
+			"Supremacy": 0,
+			"Monopoly": 20,
+			"Collectivism": 20,
+			"Naturalism": 0,
+			"Mechanization": 50,
+			"Bionics": 0
+		}
+	}
+]
