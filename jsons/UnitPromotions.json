@@ -6,5 +6,13 @@
 	{
 		"name": "Overcome Obstructions",
 		"uniques": ["Ignores terrain cost", "Ignores Zone of Control"]
+	},
+	{
+		"name": "Wire Trapped",
+		"uniques": ["[-1] Movement", "[This Unit] takes [20] damage <upon damaging a [Land] unit>"]
+	},
+	{
+		"name": "Explosive Nanites",
+		"uniques": ["[This Unit] is destroyed <upon turn end>"]
 	}
 ]

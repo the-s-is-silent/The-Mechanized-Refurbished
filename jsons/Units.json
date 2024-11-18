@@ -1,5 +1,26 @@
 [
 	{
+		"name": "Autonomous Sapper",
+		"unitType": "Scout",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Scout",
+		"range": 1,
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 15,
+		"cost": 25,
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Forward Observer",
+		"uniques": [
+			"Automated",
+			"[+100]% Strength <vs cities> <when attacking>",
+			"[Target Unit] gains the [Wire Trapped] status for [5] turns <upon damaging a [{Military} {Land}] unit>"
+		],
+		"promotions": ["Automated", "Skirmish", "Reconnaissance I"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
 		"name": "Gunner Drone",
 		"replaces": "Blimp",
 		"uniqueTo": "The Mechanized",
@@ -18,12 +39,95 @@
 			"[+25]% Strength <vs [Armor] units>",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"May withdraw before melee ([75]%)",
+			"Withdraws before melee combat <with [25]% chance>",
 			"Consumes [1] [Power]"
 		],
 		"promotions": ["Automated"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
+	},
+	{
+		"name": "Unmanned Combat Vehicle",
+		"replaces": "Wasteland Patrol",
+		"uniqueTo": "The Mechanized",
+		"unitType": "Siege",
+		"range": 1,
+		"interceptRange": 1,
+		"movement": 4,
+		"strength": 15,
+		"rangedStrength": 20,
+		"cost": 55,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Technical",
+		"uniques": [
+			"Automated",
+			"[+50]% Strength <vs [Barbarian] units>",
+			"[+33]% Strength <vs [Low Tech] units>",
+			"[-33]% Strength <vs cities>",
+			"Can move after attacking",
+			"Withdraws before melee combat <with [25]% chance>",
+			"Only available <if [Wasteland Surveillance Initiative] is constructed>",
+			"Consumes [1] [Power]"
+		],
+		"promotions": ["Automated", "Conquer Terrain"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"text": "An unmanned ground vehicle which was originally developed during the Old World era and hastily refurbished. While its mobility was largely preserved, its combat abilities leave much to be desired."
+			}
+		]
+	},
+	{
+		"name": "Medical Support Drone",
+		"replaces": "Wandering Doctor",
+		"uniqueTo": "The Mechanized",
+		"unitType": "Helicopter",
+		"range": 1,
+		"interceptRange": 1,
+		"movement": 3,
+		"strength": 15,
+		"rangedStrength": 20,
+		"cost": 100,
+		"requiredTech": "Biology",
+		"obsoleteTech": "Pharmaceuticals",
+		"upgradesTo": "Helicopter",
+		"uniques": [
+			"Can move after attacking",
+			"All adjacent units heal [+5] HP when healing",
+			"[-1] Sight",
+			"[-25]% Strength <vs cities>",
+			"Withdraws before melee combat <with [25]% chance>",
+			"Can only be built <in cities with a [Life Creation Lab]>",
+			"Consumes [1] [Power]"
+		],
+		"promotions": ["Automated", "Medic I", "Medic II"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Swarm Drones",
+		"replaces": "Quadcopter Drone",
+		"uniqueTo": "The Mechanized",
+		"unitType": "Helicopter",
+		"range": 1,
+		"movement": 6,
+		"strength": 50,
+		"rangedStrength": 65,
+		"cost": 300,
+		"hurryCostModifier": 20,
+		"requiredTech": "Robotics",
+		"promotions": ["Automated"],
+		"uniques": [
+			"Automated",
+			"Can move after attacking",
+			"Can only attack [Military] units",
+			"Withdraws before melee combat <with [25]% chance>",
+			"Only available <if [Aerospace Facility] is constructed>",
+			"[Target Unit] gains the [Explosive Nanites] status for [9999] turns <upon damaging a [Military] unit>"
+		],
+		"attackSound": "swarm"
 	},
 	{
 		"name": "Refurbished Purge Robot",

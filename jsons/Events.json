@@ -5,7 +5,7 @@
 		"choices": [
 			{
 				"text": "*meeep* So let my story begin. Let these lands flourish with new life. My life.",
-				"triggeredUniques": ["[+1] population [in capital]"]
+				"uniques": ["[+1] population [in capital]"]
 			}
 		]
 	}
