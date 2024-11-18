@@ -137,6 +137,13 @@ BuildingIcons/Smart Processing Plant
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Solar Panel Controller
+  rotate: false
+  xy: 1740, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Solar Power AI
   rotate: false
   xy: 1100, 308
@@ -144,16 +151,16 @@ BuildingIcons/Solar Power AI
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Solar Powered Furnace
+BuildingIcons/Track Survivors
   rotate: false
-  xy: 1740, 300
+  xy: 328, 92
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Track Survivors
+BuildingIcons/Waste-to-Energy Plant
   rotate: false
-  xy: 328, 92
+  xy: 544, 92
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -279,7 +286,7 @@ UnitPromotionIcons/Overcome Obstructions
   index: -1
 UnitPromotionIcons/Wire Trapped
   rotate: false
-  xy: 544, 142
+  xy: 652, 142
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
