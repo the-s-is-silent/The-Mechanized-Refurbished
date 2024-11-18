@@ -14,7 +14,7 @@
 		"uniques": [
 			"Automated",
 			"[+100]% Strength <vs cities> <when attacking>",
-			"[Target Unit] gains the [Wire Trapped] status for [5] turns <upon damaging a [{Military} {Land}] unit>"
+			"[Target Unit] gains the [Wire Trapped] status for [5] turn(s) <upon damaging a [{Military} {Land}] unit>"
 		],
 		"promotions": ["Automated", "Skirmish", "Reconnaissance I"],
 		"hurryCostModifier": 20,
@@ -125,7 +125,7 @@
 			"Can only attack [Military] units",
 			"Withdraws before melee combat <with [25]% chance>",
 			"Only available <if [Aerospace Facility] is constructed>",
-			"[Target Unit] gains the [Explosive Nanites] status for [9999] turns <upon damaging a [Military] unit>"
+			"[Target Unit] gains the [Explosive Nanites] status for [9999] turn(s) <upon damaging a [Military] unit>"
 		],
 		"attackSound": "swarm"
 	},
