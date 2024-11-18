@@ -270,7 +270,7 @@
 		"uniqueTo": "The Mechanized",
 		"isNationalWonder": true,
 		"uniques": [
-			"[+3 Happiness] from every [Life Creation Kit]",
+			"[+3 Happiness] from every [Life Creation Lab]",
 			"[+3] population [in all cities]",
 			"Only available <if [Next-Gen Creation Lab] is constructed in all [non-[Puppeted]] cities>"
 		],
