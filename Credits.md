@@ -3,7 +3,7 @@
 The majority of icons were originally created by [Bamboolord](https://github.com/RealBamboolord).<br>
 The Hacking site improvement and its tile art were borrowed from the "DeCiv 1" iteration of DeCiv.<br>
 Unmanned Combat Vehicle and Swarm Drones (icons and sprites; modified in the case of the former unit's sprite) were borrowed from [Indonesian Gentleman](https://github.com/carriontrooper) with his permission.<br>
-Medical Support Drone and its icon and sprite were originally created by [EPG]()
+Medical Support Drone and its icon and sprite were originally created by [EPG](https://github.com/EPG333).<br>
 All other icons that have been added after Bamboolord discontinued work on The Mechanized are from The Noun Project, licensed under Creative Commons or Public Domain (which has the unfortunate side effect of clashing with the custom images from the original mod maker).<br>
 Several building icons are currently missing and if anyone wants to help locate suitable icons for the components that need them, that would be appreciated.
 
