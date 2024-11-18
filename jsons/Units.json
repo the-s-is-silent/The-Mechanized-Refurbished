@@ -18,7 +18,12 @@
 		],
 		"promotions": ["Automated", "Skirmish", "Reconnaissance I"],
 		"hurryCostModifier": 20,
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "One of the earliest generations of Purge Robots from the Old World era, which by some miracle survived intact enough to be refurbished and repurposed for reconnaissance missions."
+			}
+		]
 	},
 	{
 		"name": "Gunner Drone",
@@ -125,7 +130,8 @@
 			"Can only attack [Military] units",
 			"Withdraws before melee combat <with [25]% chance>",
 			"Only available <if [Aerospace Facility] is constructed>",
-			"[Target Unit] gains the [Explosive Nanites] status for [9999] turn(s) <upon damaging a [Military] unit>"
+			"[Target Unit] gains the [Explosive Nanites] status for [9999] turn(s) <upon damaging a [Military] unit>",
+			"Consumes [2] [Power]"
 		],
 		"attackSound": "swarm"
 	},

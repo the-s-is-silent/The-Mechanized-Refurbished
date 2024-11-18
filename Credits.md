@@ -9,12 +9,13 @@ Several building icons are currently missing and if anyone wants to help locate 
 
 ### Building Icons
 - Better Organs: [organ printing](https://thenounproject.com/icon/organ-printing-2643130/) by Eucalyp
-- Fabricated Paradise: [Bird of paradise](https://thenounproject.com/icon/bird-of-paradise-5295135/) by Amethyst Studio, TH
 - Cloning Vats: [cloning](https://thenounproject.com/icon/cloning-2838658/) by VINZENCE STUDIO, TH
+- Fabricated Paradise: [Bird of paradise](https://thenounproject.com/icon/bird-of-paradise-5295135/) by Amethyst Studio, TH
 - Next-Gen Creation Lab: [genetics setting](https://thenounproject.com/icon/genetics-setting-5474822/) by zafdesign, ID
 - Rations Dispenser: [Dispenser](https://thenounproject.com/icon/dispenser-4565083/) by Gustyne Pissesa Ardhaneswari, ID
 - Smart Processing Plant: [smart industry](https://thenounproject.com/icon/smart-industry-5558039/) by M. Oki Orlando, ID
-- Solar Powered Furnace: [solar energy](https://thenounproject.com/icon/solar-energy-5409541/) by Iconiqu, ID
+- Solar Panel Controller: [solar panel](https://thenounproject.com/icon/solar-panel-6736099/) by M. Oki Orlando, ID
+- Waste-to-Energy Plant: [waste to energy](https://thenounproject.com/icon/waste-to-energy-5065687/) by Studio 365, TH
 
 ### Promotion Icons
 - Augmented Vision: [3D Visor](https://thenounproject.com/icon/3d-visor-898328/) by Musavvir Ahmed
