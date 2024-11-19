@@ -38,10 +38,10 @@
 		"name": "Track Survivors",
 		"replaces": "Search for Survivors",
 		"uniqueTo": "The Mechanized",
-		"cost": 20,
+		"cost": 30,
 		"isNationalWonder": true,
 		"uniques": [
-			"[+1] population [in this city]",
+			"[+2] population [in this city]",
 			"Free [Worker] appears",
 			"Can only be built <in [Capital] cities>"
 		]
@@ -58,7 +58,6 @@
 		"uniques": [
 			"[+15]% Production when constructing [Unsellable] buildings [in this city]",
 			"[+1] population [in this city]",
-			"Can be purchased for [0] [Gold] [in capital] <hidden from users>",
 			"Unsellable",
 			"Consumes [1] [Power]"
 		],
@@ -118,14 +117,14 @@
 		"name": "Fish Farm Regulator",
 		"replaces": "Fish Farm",
 		"uniqueTo": "The Mechanized",
-		"food": 2,
-		"maintenance": 1,
+		"food": 4,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Ecology",
 		"uniques": [
 			"Must be next to [Coast]",
 			"[+1 Food] from [Coast] tiles [in this city]",
-			"[+1] population [in this city]",
+			"[+2] population [in this city]",
 			"Unsellable",
 			"Destroyed when the city is captured",
 			"Only available <in cities with a [Life Creation Lab]>"
@@ -175,13 +174,13 @@
 		"name": "Hydroponic Basement",
 		"replaces": "Hydroponic Farming",
 		"uniqueTo": "The Mechanized",
-		"food": 2,
+		"food": 4,
 		"specialistSlots": {"Administrator": 1},
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+1 Gold, +1 Happiness] from [Lakes] tiles [in this city]",
-			"[+1] population [in this city]",
+			"[+2] population [in this city]",
 			"Only available <in cities with a [Life Creation Lab]>",
 			"Unsellable",
 			"Destroyed when the city is captured",
@@ -313,7 +312,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"Consumes [3] [Power]",
-			"[+2] population [in all cities]",
+			"[+3] population [in all cities]",
 			"Cost increases by [30] per owned city",
 			"Unsellable",
 			"Only available <if [Life Creation Lab] is constructed in at least [4] of [Your] cities>",
@@ -390,13 +389,17 @@
 		"greatPersonPoints": {"Great Administrator": 2},
 		"cost": 150,
 		"requiredTech": "Civil Service",
-		"uniques": ["Only available <after adopting [Constitution]>",
+		"uniques": [
+			"Only available <after adopting [Constitution Complete]>",
 			"[+3 Production] [in all cities connected to capital]",
 			"[+1] population [in all cities connected to capital]",
+			"Gain [100] [Culture] <upon declaring friendship>",
+			"Gain [100] [Culture] <upon declaring a defensive pact>",
 			"[+50]% Golden Age length",
 			"Empire enters golden age",
 			"Only available <if [Integrate Enslaved Into Society] is constructed in at least [4] of [Your] cities>",
-			"Cost increases by [30] per owned city"]
+			"Cost increases by [30] per owned city"
+		]
 	},
 	{
 		"name": "Centralized Livestock",
@@ -415,14 +418,14 @@
 		"name": "Black Smoker",
 		"uniqueTo": "The Mechanized",
 		"replaces": "Coal Plant",
-		"specialistSlots": {"Engineer": 2},
+		"specialistSlots": {"Engineer": 1},
 		"maintenance": 5,
 		"cost": 300,
 		"hurryCostModifier": 30,
 		"percentStatBonus": {"food": -30},
 		"uniques": [
-			"Provides [12] [Power]",
-			"Consumes [2] [Coal]",
+			"Provides [10] [Power]",
+			"Consumes [1] [Coal]",
 			"Only available <in cities without a [Nuclear Plant]>",
 			"Only available <in cities with a [Library]>",
 			"[+2 Production] [in this city] <when above [0] [Coal]>"
@@ -438,5 +441,43 @@
 			"Must have an owned [Solar collector] within [3] tiles"
 		],
 		"requiredTech": "Electronics"
+	},
+	//Copied from Derusted
+	{
+		"name": "Machina Community Center",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Community Garden",
+		"specialistSlots": {"Administrator": 1, "Engineer": 1, "Scientist": 1},
+		"maintenance": 2,
+		"culture": 2,
+		"production": 2,
+		"uniques": [
+			"[+25]% Great Person generation [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Radio"
+	},
+	{ 
+		"name": "Aquaculture Site",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Ocean Seeder",
+		"food": 4,
+		"maintenance": 2,
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+2] population [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]",
+			"[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Science] from [Algae] tiles [in this city]",
+			"[+1 Science] from [Plankton] tiles [in this city]",
+			"[+1 Science] from [Deepwater Fish] tiles [in this city]",
+			"[+1 Science] from [Mutant Eel] tiles [in this city]",
+			"[+1 Science] from [Jellyfish] tiles [in this city]",
+			"Consumes [1] [Power]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Only available <in cities with a [Next-Gen Creation Lab]>"
+		],
+		"requiredTech": "Ocean Remediation"
 	}
 ]
