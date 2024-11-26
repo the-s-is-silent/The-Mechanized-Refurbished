@@ -35,6 +35,40 @@
 		]
 	},
 	{
+		"name": "Mass Creator Kit",
+		"replaces": "Congress",
+		"uniqueTo": "The Mechanized",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Production] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"[+25]% Production when constructing [Unsellable] buildings [in all cities]",
+			"Consumes [1] [Power]",
+			"Unsellable",
+			"Only available <if [Life Creation Lab] is constructed in at least [4] of [Your] cities>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Mass Breedery]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Mass Power Cell",
+		"cost": 100,
+		"replaces": "Council",
+		"uniqueTo": "The Mechanized",
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% Production when constructing [Automated] units [in all cities]",
+			"[+1 Production] from every [Solar collector]",
+			"[+1 Science] <for every [1] [Power]>",
+			"Only available <if [Life Creation Lab] is constructed in at least [4] of [Your] cities>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Mass Energizer]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
 		"name": "Track Survivors",
 		"replaces": "Search for Survivors",
 		"uniqueTo": "The Mechanized",
@@ -286,40 +320,6 @@
 			"Consumes [3] [Power]"
 		],
 		"requiredTech": "Human Genome"
-	},
-  	{
-		"name": "Mass Energizer",
-		"replaces": "Congress",
-		"uniqueTo": "The Mechanized",
-		"cost": 100,
-		"requiredTech": "Civil Service",
-		"uniques": [
-		   	"Provides [8] [Power]",
-			"[+2] population [in this city]",
-			"[-5]% Unhappiness from [Population] [in all cities]",
-			"Unsellable",
-			"Only available <if [Life Creation Lab] is constructed in at least [4] of [Your] cities>",
-			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Mass Breedery]>",
-			"Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "Mass Breedery",
-		"cost": 100,
-		"replaces": "Council",
-		"uniqueTo": "The Mechanized",
-		"requiredTech": "Civil Service",
-		"uniques": [
-			"Consumes [3] [Power]",
-			"[+3] population [in all cities]",
-			"Cost increases by [30] per owned city",
-			"Unsellable",
-			"Only available <if [Life Creation Lab] is constructed in at least [4] of [Your] cities>",
-			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Mass Energizer]>",
-			"Destroyed when the city is captured"
-		]
 	},
 	{
 		"name": "Enslave Inferiors",

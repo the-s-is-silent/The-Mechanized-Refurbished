@@ -95,14 +95,14 @@ BuildingIcons/Life Creation Lab
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Mass Breedery
+BuildingIcons/Mass Creator Kit
   rotate: false
   xy: 916, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Mass Energizer
+BuildingIcons/Mass Power Cell
   rotate: false
   xy: 1024, 200
   size: 100, 100
