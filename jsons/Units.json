@@ -176,6 +176,7 @@
 		"name": "Great Geneticist",
 		"replaces": "Great Farmer",
 		"uniqueTo": "The Mechanized",
+		"unitType": "Civilian",
 		"uniques": [
 			"[+1] population [in all cities] <by consuming this unit>",
 			"Can instantly construct a [Life Research Site] improvement <by consuming this unit>",
