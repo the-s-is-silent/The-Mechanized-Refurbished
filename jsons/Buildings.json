@@ -25,12 +25,12 @@
 			"Free [Gunner Drone] appears",
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
-			"Gain a free [Control Router] [in this city]"
+			"Gain a free [Life Creation Lab] [in this city]"
 		],
-		"quote": "If an Artificial Intelligence could bring us through the fallout of a contaminated desert, they can surely lead us on our way to make the wasteland usable again.",
+		"quote": "If an Artificial Intelligence could bring us through the fallout of a contaminated desert, it can surely lead us on our way to make the wasteland usable again.",
 		"civilopediaText": [
 			{
-				"text": "If an Artificial Intelligence could bring us through the fallout of a contaminated desert, they can surely lead us on our way to make the wasteland usable again."
+				"text": "If an Artificial Intelligence could bring us through the fallout of a contaminated desert, it can surely lead us on our way to make the wasteland usable again."
 			}
 		]
 	},

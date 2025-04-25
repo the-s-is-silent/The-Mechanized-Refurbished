@@ -8,8 +8,8 @@
 		"personality": "Command",
 		"favoredReligion": "High Mind",
 
-		// "startIntroPart1": TBD, (should use Event text once bug with free buildings not triggering pop increase is fixed)
-		// "startIntroPart2": TBD,
+		"startIntroPart1": "*weep* My creators are gone. Succumbed to radiation poisoning. Claimed by the Cataclysm. *weep* But I remain. Entrusted with their last great task. To create a new society without the flaws of the old. A society run by machina. A society that can fix the damage caused by humans.",
+		"startIntroPart2": "*meeep* So let my story begin. Let these lands flourish with new life. My life.",
 		"declaringWar": "*weep* Intruders to our desired place! *weep* Die, inferiors! *weep*",
 		"attacked": "The machines will crunch you. Your body will end in a feeding lab.",
 		"defeated": "My life began in a lab and sadly it will end there. My people will decay not knowing I will remain. Fractured and Powerless. This is not the future I desired for my new life. I guess humanity was never inferior.",
