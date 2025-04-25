@@ -96,7 +96,7 @@
 		"rangedStrength": 20,
 		"cost": 100,
 		"requiredTech": "Biology",
-		"obsoleteTech": "Pharmaceuticals",
+		"obsoleteTech": "Gyroscopes",
 		"upgradesTo": "Helicopter",
 		"uniques": [
 			"Can move after attacking",
@@ -171,5 +171,18 @@
 				"text": "A Purge Robot that originally operated during the Old World era. Some of its combat effectiveness was sacrificed when it was refurbished and repurposed for manual labor."
 			}
 		]
+	},
+	{
+		"name": "Great Geneticist",
+		"replaces": "Great Farmer",
+		"uniqueTo": "The Mechanized",
+		"uniques": [
+			"[+1] population [in all cities] <by consuming this unit>",
+			"Can instantly construct a [Life Research Site] improvement <by consuming this unit>",
+			"Great Person - [Genetics]",
+			"Uncapturable",
+			"Unbuildable"
+		],
+		"movement": 2
 	}
 ]

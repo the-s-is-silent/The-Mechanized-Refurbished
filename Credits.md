@@ -2,9 +2,10 @@
 
 The majority of icons were originally created by [Bamboolord](https://github.com/RealBamboolord).<br>
 The Hacking site improvement and its tile art were borrowed from the "DeCiv 1" iteration of DeCiv.<br>
-Unmanned Combat Vehicle and Swarm Drones (icons and sprites; modified in the case of the former unit's sprite) were borrowed from [Indonesian Gentleman](https://github.com/carriontrooper) with his permission.<br>
-Medical Support Drone and its icon and sprite were originally created by [EPG](https://github.com/EPG333).<br>
-All other icons that have been added after Bamboolord discontinued work on The Mechanized are from The Noun Project, licensed under Creative Commons or Public Domain (which has the unfortunate side effect of clashing with the custom images from the original mod maker).<br>
+The Life Research Site improvement data was originally created by [EPG](https://github.com/EPG333), and the tile sprite was borrowed [Indonesian Gentleman](https://github.com/carriontrooper) with his permission.<br>
+Unmanned Combat Vehicle and Swarm Drones (icons and sprites; modified in the case of the former unit's sprite) were also borrowed from Indonesian Gentleman with his permission.<br>
+Medical Support Drone and its icon and sprite were originally created by EPG.<br>
+All other icons that have been added after Bamboolord temporarily discontinued work on The Mechanized are from The Noun Project, licensed under Creative Commons or Public Domain (which has the unfortunate side effect of clashing with the custom images from the original mod maker).<br>
 Several building icons are currently missing and if anyone wants to help locate suitable icons for the components that need them, that would be appreciated.
 
 ### Building Icons
@@ -17,6 +18,9 @@ Several building icons are currently missing and if anyone wants to help locate 
 - Solar Panel Controller: [solar panel](https://thenounproject.com/icon/solar-panel-6736099/) by M. Oki Orlando, ID
 - Waste-to-Energy Plant: [waste to energy](https://thenounproject.com/icon/waste-to-energy-5065687/) by Studio 365, TH
 
+### Improvement Icons
+- Life Research Site: [montreal](https://thenounproject.com/icon/montreal-5240378/) by Noura Mbarki
+
 ### Promotion Icons
 - Augmented Vision: [3D Visor](https://thenounproject.com/icon/3d-visor-898328/) by Musavvir Ahmed
 - Explosive Nanites: Based on [explosion](https://thenounproject.com/icon/explosion-6216014/) by Adrien Coquet, FR and [nanofabrication](https://thenounproject.com/icon/nanofabrication-4331493/) by Loritas Medina, PH
@@ -25,4 +29,5 @@ Several building icons are currently missing and if anyone wants to help locate 
 
 ### Unit Icons
 - Autonomous Sapper: [space marine](https://thenounproject.com/icon/space-marine-118891/) by Robert Bjurshagen, DE
+- Great Geneticist: [genetic engineering](https://thenounproject.com/icon/genetic-engineering-6220085/) by Icon Market, PK
 - Refurbished Purge Robot: Reuses the same icon as Purge Robot and its Salvaged version in base DeCiv, [space marine](https://thenounproject.com/icon/space-marine-118882/) by Robert Bjurshagen, DE

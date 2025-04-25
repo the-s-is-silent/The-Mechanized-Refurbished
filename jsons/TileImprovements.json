@@ -14,5 +14,46 @@
 			"Pillaging this improvement yields approximately [+20 Science]"
 		],
 		"shortcutKey": "K"
-	}
+	},
+	{
+		"name": "Life Research Site",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Factory farm",
+		"terrainsCanBeBuiltOn": [
+			"Badlands",
+			"Wasteland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Permafrost",
+			"Swamp",
+			"Muskeg"
+		],
+		"science": 4,
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"Improves [Horses] resource in this tile",
+			"Improves [Cattle] resource in this tile",
+			"Improves [Goats] resource in this tile",
+			"Improves [Deer] resource in this tile",
+			"Improves [Furs] resource in this tile",
+			"Improves [Hostile Fauna] resource in this tile",
+			"Improves [Hogs] resource in this tile",
+			"Improves [Insects] resource in this tile",
+			"Improves [Grain] resource in this tile",
+			"Improves [Tubers] resource in this tile",
+			"Improves [Maize] resource in this tile",
+			"Improves [Cactus] resource in this tile",
+			"Improves [Fungus] resource in this tile",
+			"Removes removable features when built",
+			"Can only be built to improve a resource",
+			"[+1 Science] <after discovering [Laboratory]>",
+			"[+1 Science] <after discovering [Land Remediation]>",
+			"[+1 Science] <after discovering [Genetics]>",
+			"[+1 Science, +1 Happiness] <after discovering [Rewilding]>",
+			"Will not be replaced by automated units",
+			"Pillaging this improvement yields approximately [+20 Science]"
+        ]
+    }
 ]
