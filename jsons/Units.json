@@ -26,6 +26,29 @@
 		]
 	},
 	{
+		"name": "Desert Destroyer",
+		"replaces": "Forward Observer",
+		"uniqueTo": "The Mechanized",
+		"unitType": "Siege",
+		"movement": 4,
+		"strength": 25,
+		"rangedStrength": 30,
+		"range": 1,
+		"cost": 75,
+		"hurryCostModifier": 20,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Missile Vehicle",
+		"uniques": [
+			"Automated",
+			"[+1] Sight",
+			"Can move after attacking",
+			"[+100]% Strength <vs [Armor] units> <when attacking>",
+			"[+100]% Strength <vs [Wounded] units> <when attacking>"
+		],
+		"promotions": ["Automated", "Skirmish", "Conquer Terrain"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Gunner Drone",
 		"replaces": "Blimp",
 		"uniqueTo": "The Mechanized",
