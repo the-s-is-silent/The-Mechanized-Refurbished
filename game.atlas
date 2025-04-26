@@ -55,35 +55,35 @@ BuildingIcons/Control Router
   index: -1
 BuildingIcons/Enslave Inferiors
   rotate: false
-  xy: 1524, 408
+  xy: 592, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Fabricated Paradise
   rotate: false
-  xy: 592, 200
+  xy: 1632, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Fish Farm Regulator
   rotate: false
-  xy: 1632, 408
+  xy: 700, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Freezing Room
   rotate: false
-  xy: 700, 200
+  xy: 1740, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Integrate Enslaved Into Society
   rotate: false
-  xy: 916, 200
+  xy: 1024, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -97,14 +97,14 @@ BuildingIcons/Life Creation Lab
   index: -1
 BuildingIcons/Mass Creator Kit
   rotate: false
-  xy: 1132, 200
+  xy: 1308, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mass Power Cell
   rotate: false
-  xy: 1308, 300
+  xy: 1416, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -118,28 +118,28 @@ BuildingIcons/Mechanized Core
   index: -1
 BuildingIcons/Next-Gen Creation Lab
   rotate: false
-  xy: 1524, 300
+  xy: 1632, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Rations Dispenser
   rotate: false
-  xy: 1632, 300
+  xy: 1740, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Smart Processing Plant
   rotate: false
-  xy: 1848, 300
+  xy: 220, 80
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Solar Panel Controller
   rotate: false
-  xy: 220, 80
+  xy: 328, 92
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -153,35 +153,35 @@ BuildingIcons/Solar Power AI
   index: -1
 BuildingIcons/Track Survivors
   rotate: false
-  xy: 544, 92
+  xy: 652, 92
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Waste-to-Energy Plant
   rotate: false
-  xy: 760, 92
+  xy: 868, 92
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Hacking site
   rotate: false
-  xy: 1848, 408
+  xy: 916, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Life Research Site
   rotate: false
-  xy: 1024, 200
+  xy: 1132, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Mechanized
   rotate: false
-  xy: 436, 92
+  xy: 544, 92
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -202,7 +202,7 @@ TileSets/FantasyHex/Tiles/Hacking site
   index: -1
 TileSets/FantasyHex/Tiles/Life Research Site
   rotate: false
-  xy: 1240, 202
+  xy: 976, 94
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
@@ -214,9 +214,16 @@ TileSets/FantasyHex/Units/Autonomous Sapper
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Geneticist
+TileSets/FantasyHex/Units/Desert Destroyer
   rotate: false
   xy: 1956, 422
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Geneticist
+  rotate: false
+  xy: 1240, 214
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -230,14 +237,14 @@ TileSets/FantasyHex/Units/Medical Support Drone
   index: -1
 TileSets/FantasyHex/Units/Swarm Drones
   rotate: false
-  xy: 868, 106
+  xy: 1034, 164
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Unmanned Combat Vehicle
   rotate: false
-  xy: 926, 164
+  xy: 102, 44
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -249,44 +256,51 @@ UnitIcons/Autonomous Sapper
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Great Geneticist
+UnitIcons/Desert Destroyer
   rotate: false
-  xy: 1740, 408
+  xy: 1524, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Gunner Drone
+UnitIcons/Great Geneticist
   rotate: false
   xy: 808, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Gunner Drone
+  rotate: false
+  xy: 1848, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Medical Support Drone
   rotate: false
-  xy: 1416, 300
+  xy: 1524, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Refurbished Purge Robot
   rotate: false
-  xy: 1740, 300
+  xy: 1848, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Swarm Drones
   rotate: false
-  xy: 328, 92
+  xy: 436, 92
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unmanned Combat Vehicle
   rotate: false
-  xy: 652, 92
+  xy: 760, 92
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -314,7 +328,7 @@ UnitPromotionIcons/Overcome Obstructions
   index: -1
 UnitPromotionIcons/Wire Trapped
   rotate: false
-  xy: 868, 142
+  xy: 976, 142
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
