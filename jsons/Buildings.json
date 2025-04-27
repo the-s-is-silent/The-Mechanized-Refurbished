@@ -48,7 +48,7 @@
 			"Unsellable",
 			"Only available <if [Life Creation Lab] is constructed in at least [4] of [Your] cities>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Mass Breedery]>",
+			"Only available <in cities without a [Mass Power Cell]>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -64,7 +64,7 @@
 			"[+1 Science] <for every [1] [Power]>",
 			"Only available <if [Life Creation Lab] is constructed in at least [4] of [Your] cities>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Mass Energizer]>",
+			"Only available <in cities without a [Mass Creator Kit]>",
 			"Destroyed when the city is captured"
 		]
 	},
