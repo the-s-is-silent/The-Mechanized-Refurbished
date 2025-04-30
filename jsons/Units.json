@@ -45,7 +45,7 @@
 			"[+100]% Strength <vs [Armor] units> <when attacking>",
 			"[+100]% Strength <vs [Wounded] units> <when attacking>"
 		],
-		"promotions": ["Automated", "Skirmish", "Conquer Terrain"],
+		"promotions": ["Automated", "Skirmish", "Survivalism", "Conquer Terrain"],
 		"attackSound": "shot"
 	},
 	{
@@ -98,7 +98,7 @@
 			"Only available <if [Wasteland Surveillance Initiative] is constructed>",
 			"Consumes [1] [Power]"
 		],
-		"promotions": ["Automated", "Conquer Terrain"],
+		"promotions": ["Automated", "Survivalism", "Conquer Terrain"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot",
 		"civilopediaText": [
