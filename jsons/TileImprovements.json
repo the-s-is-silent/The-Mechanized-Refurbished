@@ -48,12 +48,13 @@
 			"Improves [Fungus] resource in this tile",
 			"Removes removable features when built",
 			"Can only be built to improve a resource",
+			"[+2 Science] <if [The Green Palace] is constructed>",
 			"[+1 Science] <after discovering [Laboratory]>",
 			"[+1 Science] <after discovering [Land Remediation]>",
 			"[+1 Science] <after discovering [Genetics]>",
 			"[+1 Science, +1 Happiness] <after discovering [Rewilding]>",
 			"Will not be replaced by automated units",
 			"Pillaging this improvement yields approximately [+20 Science]"
-        ]
-    }
+		]
+	}
 ]
