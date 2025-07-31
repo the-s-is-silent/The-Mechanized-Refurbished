@@ -1,0 +1,8 @@
+[
+	{
+		"name": "Geneticist",
+		"science": 3,
+		"greatPersonPoints": {"Great Geneticist": 3},
+		"color": [192, 192, 192]
+	}
+]

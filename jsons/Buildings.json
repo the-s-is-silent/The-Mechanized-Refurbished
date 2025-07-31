@@ -45,7 +45,6 @@
 			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[+25]% Production when constructing [Unsellable] buildings [in all cities]",
 			"Consumes [1] [Power]",
-			"Unsellable",
 			"Only available <if [Life Creation Lab] is constructed in at least [4] of [Your] cities>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Mass Power Cell]>",
@@ -226,7 +225,7 @@
 		"name": "Fabricated Paradise",
 		"replaces": "Protected Area",
 		"uniqueTo": "The Mechanized",
-		"food": 2,
+		"food": 4,
 		"culture": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -234,7 +233,7 @@
 			"Must be next to [Desert]",
 			"[+1 Gold, +1 Culture] from [Artificial oasis] tiles [in this city]",
 			"[+2 Science, +2 Culture] [in this city] <with [Exotic Seeds]>",
-			"[+1] population [in this city]",
+			"[+2] population [in this city]",
 			"Only available <in cities with a [Life Creation Lab]>",
 			"Unsellable",
 			"Destroyed when the city is captured"
@@ -268,9 +267,10 @@
 		"uniqueTo": "The Mechanized",
 		"food": 5,
 		"science": 5,
+		"specialistSlots": {"Geneticist": 2},
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"requiredTech": "Pharmaceuticals",
+		"requiredTech": "Genetics",
 		"uniques": [
 			"[+30]% Production when constructing [Unsellable] buildings [in this city]",
 			"[+3] population [in this city]",
@@ -295,7 +295,7 @@
 			"Only available <in cities with a [Next-Gen Creation Lab]>",
 			"Consumes [1] [Power]"
 		],
-		"requiredTech": "Genetics"
+		"requiredTech": "Human Genome"
 	},
 	{
 		"name": "Waste-to-Energy Plant",
@@ -309,7 +309,7 @@
 		"requiredTech": "Re-Utilization"
 	},
 	{
-		"name": "Better Organs",
+		"name": "Better Organs Fabricator",
 		"replaces": "Organ Lab",
 		"uniqueTo": "The Mechanized",
 		"isNationalWonder": true,
@@ -319,18 +319,16 @@
 			"Only available <if [Next-Gen Creation Lab] is constructed in all [non-[Puppeted]] cities>",
 			"Consumes [3] [Power]"
 		],
-		"requiredTech": "Human Genome"
+		"requiredTech": "Pharmaceuticals"
 	},
 	{
 		"name": "Enslave Inferiors",
 		"uniqueTo": "The Mechanized",
 		"replaces": "Prison Camp",
-		"science": 2,
 		"happiness": -2,
 		"hurryCostModifier": -25,
-		"cost": 20,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Requires at least [3] population",
 			"Provides [4] [Slaves]",
@@ -352,11 +350,11 @@
 		"uniques": [
 			"Consumes [1] [Power]",
 			"[-30]% enemy spy effectiveness [in this city]",
-			"Remove extra unhappiness from annexed cities",
-			"[+1 Happiness] [in this city] <after adopting [Constitution Complete]>",
+			"Removes extra unhappiness from annexed cities",
 			"Only available <in cities without a [Enslave Inferiors]>",
 			"Unsellable",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured",
+			"Only available <when espionage is enabled>"
 		],
 		"requiredTech": "Computers"
 	},
@@ -402,17 +400,24 @@
 		]
 	},
 	{
-		"name": "Centralized Livestock",
+		"name": "Central Creation Lab",
+		"replaces": "Medical Network",
 		"uniqueTo": "The Mechanized",
-		"cost": 50,
+		"isNationalWonder": true,
+		"specialistSlots": {"Geneticist": 2},
+		"science": 3,
+		"cost": 150,
 		"uniques": [
-			"Only available <after adopting [Centralization]>",
+			"Only available <if [Life Creation Lab] is constructed in at least [4] of [Your] cities>",
+			"Only available <after adopting [Rationalism]>",
 			"Consumes [1] [Power]",
 			"[+2] population [in this city]",
-			"Destroyed when the city is captured",
+			"May buy [Great Geneticist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing cost ([500]) <starting from the [Industrial era]>",
+			"[All] Units adjacent to this city heal [30] HP per turn when healing",
 			"Can only be built <in [Capital] cities>",
-			"Unsellable"
-		]
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Biology"
 	},
 	{
 		"name": "Black Smoker",
@@ -427,6 +432,7 @@
 			"Provides [10] [Power]",
 			"Consumes [1] [Coal]",
 			"Only available <in cities without a [Nuclear Plant]>",
+			"Only available <in cities without a [Advanced Energy Recycling Plant]>",
 			"Only available <in cities with a [Library]>",
 			"[+2 Production] [in this city] <when above [0] [Coal]>"
 		],

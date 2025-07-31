@@ -2,16 +2,19 @@
 
 The majority of icons were originally created by [Bamboolord](https://github.com/RealBamboolord).<br>
 The Hacking site improvement and its tile art were borrowed from the "DeCiv 1" iteration of DeCiv.<br>
-The Life Research Site improvement data was originally created by [EPG](https://github.com/EPG333), and the tile sprite was borrowed [Indonesian Gentleman](https://github.com/carriontrooper) with his permission.<br>
+The Life Research Site improvement data was originally created by [EPG](https://github.com/EPG333), and the tile sprite was borrowed from [Indonesian Gentleman](https://github.com/carriontrooper) with his permission.<br>
 Unmanned Combat Vehicle and Swarm Drones (icons and sprites; modified in the case of the former unit's sprite) were also borrowed from Indonesian Gentleman with his permission.<br>
-Medical Support Drone and its icon and sprite were originally created by EPG.<br>
-All other icons that have been added after Bamboolord temporarily discontinued work on The Mechanized are from The Noun Project, licensed under Creative Commons or Public Domain (which has the unfortunate side effect of clashing with the custom images from the original mod maker).<br>
-Several building icons are currently missing and if anyone wants to help locate suitable icons for the components that need them, that would be appreciated.
+Medical Support Drone and its icon and sprite were originally created by EPG and borrowed with his permission.<br>
+All other icons that have been added after Bamboolord temporarily discontinued work on The Mechanized are from The Noun Project, licensed under Creative Commons or Public Domain (which has the unfortunate side effect of clashing with the custom images from the original mod maker).
 
 ### Building Icons
-- Better Organs: [organ printing](https://thenounproject.com/icon/organ-printing-2643130/) by Eucalyp
+- Aquaculture Site: [monitoring aquaculture](https://thenounproject.com/icon/monitoring-aquaculture-4475510/) by Foodicons Collection
+- Better Organs Fabricator: [organ printing](https://thenounproject.com/icon/organ-printing-2643130/) by Eucalyp
+- Central Creation Lab: [biological engineering](https://thenounproject.com/icon/biological-engineering-5268635/) by M. Oki Orlando, ID
 - Cloning Vats: [cloning](https://thenounproject.com/icon/cloning-2838658/) by VINZENCE STUDIO, TH
+- Department of Human-Machina Relations: [handshake robot](https://thenounproject.com/icon/handshake-robot-6561630/) by Siti Mutingatun, ID
 - Fabricated Paradise: [Bird of paradise](https://thenounproject.com/icon/bird-of-paradise-5295135/) by Amethyst Studio, TH
+- Machina Community Center: [robot](https://thenounproject.com/icon/robot-3153612/) by Eucalyp
 - Next-Gen Creation Lab: [genetics setting](https://thenounproject.com/icon/genetics-setting-5474822/) by zafdesign, ID
 - Rations Dispenser: [Dispenser](https://thenounproject.com/icon/dispenser-4565083/) by Gustyne Pissesa Ardhaneswari, ID
 - Smart Processing Plant: [smart industry](https://thenounproject.com/icon/smart-industry-5558039/) by M. Oki Orlando, ID
